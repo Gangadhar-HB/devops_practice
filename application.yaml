@@ -7,15 +7,6 @@ spec:
   project: default
 
   source:
-    repoURL: apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: myapp-argo-application
-  namespace: argocd
-spec:
-  project: default
-
-  source:
     repoURL: https://github.com/Gangadhar-HB/devops_practice.git
     targetRevision: HEAD
     path: dev
